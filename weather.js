@@ -2,12 +2,12 @@ $(function() {
   var handleWeatherResponse = function(data) {
     console.log(data);
 
-    // Put your code here to change the "markup" variable. 
+    // Put your code here to change the "markup" variable.
     // Don't change any other code in this file. You will be sad.
-    
-    var markup = "The weather report... " + "will be here when I finish my homework.";
-    
-    
+
+    var markup = { name: "temp", outlook: "day_text"};
+
+
     // End of your code
 
     $('.weather-report').html(markup);
