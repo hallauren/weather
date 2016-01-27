@@ -5,7 +5,7 @@ $(function() {
     // Put your code here to change the "markup" variable.
     // Don't change any other code in this file. You will be sad.
 
-    var markup = { name: "temp", outlook: "day_text"};
+    var markup = { weather-report: "temp", get-the-weather: "day_text"};
 
 
     // End of your code
