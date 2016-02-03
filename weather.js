@@ -5,7 +5,10 @@ $(function() {
     // Put your code here to change the "markup" variable.
     // Don't change any other code in this file. You will be sad.
 
-    var markup = { weather-report: "temp", get-the-weather: "day_text"};
+    var markup = "In " + data.timezone + " the current temperature is " + data.currently.temperature +
+    " degrees F but if feels like " + data.currently.apparentTemperature + " degrees F. Today was " +
+    data.currently.summary + ". There is a " + data.currently.precipProbability*100 + "% chance of precipitation.";
+
 
 
     // End of your code
